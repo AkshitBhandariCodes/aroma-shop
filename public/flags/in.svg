@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <!-- India -->
+  <rect width="24" height="16" fill="#ff9933" />
+  <rect y="5.33" width="24" height="5.33" fill="#ffffff" />
+  <rect y="10.67" width="24" height="5.33" fill="#138808" />
+  <circle cx="12" cy="8" r="2.5" fill="#1a4ea0" opacity="0.95" />
+  <circle cx="12" cy="8" r="1.7" fill="#ffffff" opacity="0.2" />
+  <g stroke="#ffffff" stroke-width="0.6" opacity="0.85">
+    <line x1="12" y1="5.5" x2="12" y2="10.5" />
+    <line x1="9.6" y1="8" x2="14.4" y2="8" />
+    <line x1="10" y1="6.1" x2="14" y2="9.9" />
+    <line x1="14" y1="6.1" x2="10" y2="9.9" />
+  </g>
+</svg>
+

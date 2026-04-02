@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <!-- South Africa -->
+  <rect width="24" height="16" fill="#007a3d" />
+  <polygon points="0,11 24,0 24,4 6,16 0,16" fill="#f2f2f2" opacity="0.95" />
+  <polygon points="0,13 24,2 24,6 6,18 0,18" fill="#d83a3a" opacity="0.65" />
+  <rect x="0" y="0" width="8" height="16" fill="#000000" opacity="0.2" />
+  <polygon points="7,2 9,7 7,12 12,10 18,12 16,7 18,2 12,4" fill="#ffcc00" opacity="0.85" />
+</svg>
+

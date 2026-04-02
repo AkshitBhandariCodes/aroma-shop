@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <!-- Spain -->
+  <rect width="24" height="16" fill="#aa151b" />
+  <rect y="5.2" width="24" height="5.6" fill="#f1bf00" />
+  <circle cx="12" cy="8" r="2.8" fill="#aa151b" opacity="0.15" />
+  <circle cx="12" cy="8" r="2.0" fill="#aa151b" opacity="0.4" />
+</svg>
+

@@ -1,0 +1,109 @@
+.landing-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.landing-backdrop__mesh {
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(ellipse 85% 65% at 12% 8%, rgba(255, 192, 203, 0.22) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 55% at 88% 18%, rgba(255, 228, 196, 0.35) 0%, transparent 52%),
+    radial-gradient(ellipse 55% 45% at 72% 92%, rgba(245, 214, 224, 0.32) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 40% at 35% 78%, rgba(255, 236, 220, 0.25) 0%, transparent 48%),
+    linear-gradient(180deg, #fff9f2 0%, #fff5eb 45%, #fff9f2 100%);
+}
+
+.landing-backdrop__grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.14;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.landing-backdrop__orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  animation: backdrop-float 22s ease-in-out infinite;
+}
+
+.landing-backdrop__orb--1 {
+  width: min(420px, 55vw);
+  height: min(420px, 55vw);
+  background: rgba(255, 205, 210, 0.35);
+  top: -5%;
+  left: -8%;
+  animation-delay: 0s;
+}
+
+.landing-backdrop__orb--2 {
+  width: min(360px, 45vw);
+  height: min(360px, 45vw);
+  background: rgba(255, 224, 189, 0.4);
+  bottom: 10%;
+  right: -6%;
+  animation-delay: -7s;
+}
+
+.landing-backdrop__orb--3 {
+  width: min(280px, 35vw);
+  height: min(280px, 35vw);
+  background: rgba(232, 220, 255, 0.18);
+  top: 42%;
+  left: 38%;
+  animation-delay: -14s;
+}
+
+@keyframes backdrop-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(2%, -3%) scale(1.04);
+  }
+  66% {
+    transform: translate(-2%, 2%) scale(0.98);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-backdrop__orb {
+    animation: none;
+  }
+}
+
+.hero-ornament {
+  position: absolute;
+  left: 0;
+  bottom: 8%;
+  width: min(420px, 85vw);
+  height: auto;
+  opacity: 0.85;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-ornament {
+    opacity: 0.35;
+    bottom: 4%;
+  }
+}
+
+.section-flourish {
+  display: block;
+  width: 120px;
+  height: 24px;
+  margin: 0 auto 1.25rem;
+  color: #c9a27e;
+}
+
+.section-flourish--left {
+  margin: 0 0 1rem;
+}

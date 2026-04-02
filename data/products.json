@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Elie Saab",
+    "price": 36,
+    "tab": "best",
+    "img": "grid-ref-1.jpg",
+    "shortDescription": "Honey-gold facets, daylight amber, and couture clarity.",
+    "description": "A luminous amber floral built around orange blossom and patchouli, wrapped in radiant woods. Faceted glass catches the light like evening couture — confident, polished, unforgettable.",
+    "volume": "50 ml",
+    "notes": ["Orange blossom", "Patchouli", "Amber woods"]
+  },
+  {
+    "id": 2,
+    "name": "Replica",
+    "price": 48,
+    "tab": "new",
+    "img": "grid-ref-2.jpg",
+    "shortDescription": "Sun-drenched notes, soft fruit, and linen-warm memory.",
+    "description": "Inspired by Provence at golden hour — ripe grapes, soft rose, and sun on linen. A memory-in-a-bottle composition for slow mornings and long evenings.",
+    "volume": "100 ml",
+    "notes": ["Grape", "Rose", "Musk"]
+  },
+  {
+    "id": 3,
+    "name": "Aerin",
+    "price": 72,
+    "tab": "rated",
+    "img": "grid-ref-3.jpg",
+    "shortDescription": "Amber musk, polished stone cap, and quiet glamour.",
+    "description": "Creamy musk and warm amber rest on a veil of rose and coconut. Polished and serene — the scent of quiet luxury and soft light.",
+    "volume": "50 ml",
+    "notes": ["Rose", "Amber musk", "Coconut"]
+  },
+  {
+    "id": 4,
+    "name": "Elie Saab",
+    "price": 36,
+    "tab": "best",
+    "img": "grid-ref-4.jpg",
+    "shortDescription": "Radiant florals with a couture amber trail.",
+    "description": "The same couture spirit in a fresh facet — luminous white florals meet honeyed amber for a signature that feels both airy and anchored.",
+    "volume": "30 ml",
+    "notes": ["Jasmine", "Honey", "Cedar"]
+  },
+  {
+    "id": 5,
+    "name": "Replica",
+    "price": 48,
+    "tab": "new",
+    "img": "grid-ref-5.jpg",
+    "shortDescription": "Soft fruit, airy musk, and nostalgic warmth.",
+    "description": "A softer chapter in the Replica line — gentle fruit, clean musk, and the feeling of sunlight through curtains.",
+    "volume": "30 ml",
+    "notes": ["Pear", "Musk", "Vanilla"]
+  },
+  {
+    "id": 6,
+    "name": "Aerin",
+    "price": 72,
+    "tab": "rated",
+    "img": "grid-ref-6.jpg",
+    "shortDescription": "Velvet musk and rose in golden light.",
+    "description": "Deeper rose and musk with a satin dry-down — evening-ready, still effortlessly Aerin.",
+    "volume": "100 ml",
+    "notes": ["Rose", "Musk", "Sandalwood"]
+  }
+]
