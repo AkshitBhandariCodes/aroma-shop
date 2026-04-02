@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <!-- Mexico -->
+  <rect width="24" height="16" fill="#006847" />
+  <rect y="5.33" width="24" height="5.33" fill="#ffffff" />
+  <rect y="10.67" width="24" height="5.33" fill="#ce1126" />
+  <circle cx="12" cy="8" r="2.4" fill="#f6c445" opacity="0.9" />
+  <circle cx="12" cy="8" r="1.2" fill="#006847" opacity="0.35" />
+</svg>
+
