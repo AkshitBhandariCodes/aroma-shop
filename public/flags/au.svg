@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <!-- Australia -->
+  <rect width="24" height="16" fill="#012169" />
+  <rect x="0" y="0" width="12" height="8" fill="#012169" />
+  <!-- crosses -->
+  <path d="M0 16 L16 0" stroke="#ffffff" stroke-width="2.2" />
+  <path d="M8 16 L24 8" stroke="#ffffff" stroke-width="1.6" opacity="0.8" />
+  <path d="M0 0 L16 16" stroke="#ffffff" stroke-width="2.2" opacity="0.95" />
+  <path d="M0 0 L16 16" stroke="#c8102e" stroke-width="1.1" />
+  <path d="M16 0 L0 16" stroke="#c8102e" stroke-width="1.1" />
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.95">
+    <polygon points="18.2,3.2 18.7,4.7 20.2,5.2 18.7,5.7 18.2,7.2 17.7,5.7 16.2,5.2 17.7,4.7" />
+    <circle cx="15.2" cy="8.8" r="0.7" />
+    <circle cx="19.2" cy="10" r="0.6" />
+    <circle cx="17.3" cy="12" r="0.55" />
+  </g>
+</svg>
+
